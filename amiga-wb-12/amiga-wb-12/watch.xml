@@ -1,0 +1,30 @@
+<Watch name="Amiga WB 1.2" description="Historic clock from Amiga Workbench release 1.2.
+Showing an adaption of use Clock V2.15 with the analog mode and digital mode 1.
+The analog clock appears in active mode and the digital in dimmed mode on your watch.
+
+Licences:
+TopazPlus_a500_v1.0.ttf created by dMG of TrueSchool and Divine Stylers under CC BY-NC-SA license." features="12h Time,24h Time,Analog,Date,Digital" author="Tamio Honma" web_link="honma.de" bg_color="ffffff" ind_loc="tc" ind_bg="Y" hotword_loc="tc" hotword_bg="Y">
+    <Layer type="markers_hm" x="0" y="0" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="100" radius="256" anim_scale_x="100" anim_scale_y="100" m_hour="None" m_minute="Large" color="000000" color2="000000" squarify="0" display="bd"/>
+    <Layer type="shape" x="0" y="-236" gyro="0" rotation="-90" skew_x="45" skew_y="-45" opacity="100" alignment="cc" shape="Square" width="20" height="10" color="000000" display="bd"/>
+    <Layer type="shape" x="0" y="236" gyro="0" rotation="90" skew_x="45" skew_y="-45" opacity="100" alignment="cc" shape="Square" width="20" height="10" color="000000" display="bd"/>
+    <Layer type="shape" x="-236" y="0" gyro="0" rotation="0" skew_x="45" skew_y="-45" opacity="100" alignment="cc" shape="Square" width="20" height="10" color="000000" display="bd"/>
+    <Layer type="shape" x="236" y="0" gyro="0" rotation="180" skew_x="45" skew_y="-45" opacity="100" alignment="cc" shape="Square" width="20" height="10" color="000000" display="bd"/>
+    <Layer type="shape" x="204" y="-119" gyro="0" rotation="150" skew_x="45" skew_y="-45" opacity="100" alignment="cc" shape="Square" width="20" height="10" color="000000" display="bd"/>
+    <Layer type="shape" x="-204" y="-119" gyro="0" rotation="200" skew_x="45" skew_y="-45" opacity="100" alignment="cc" shape="Square" width="20" height="10" color="000000" display="bd"/>
+    <Layer type="shape" x="204" y="119" gyro="0" rotation="205" skew_x="45" skew_y="-45" opacity="100" alignment="cc" shape="Square" width="20" height="10" color="000000" display="bd"/>
+    <Layer type="shape" x="-204" y="119" gyro="0" rotation="150" skew_x="45" skew_y="-45" opacity="100" alignment="cc" shape="Square" width="20" height="10" color="000000" display="bd"/>
+    <Layer type="shape" x="117" y="-205" gyro="0" rotation="123" skew_x="45" skew_y="-45" opacity="100" alignment="cc" shape="Square" width="20" height="10" color="000000" display="bd"/>
+    <Layer type="shape" x="-117" y="205" gyro="0" rotation="123" skew_x="45" skew_y="-45" opacity="100" alignment="cc" shape="Square" width="20" height="10" color="000000" display="bd"/>
+    <Layer type="shape" x="-117" y="-205" gyro="0" rotation="60" skew_x="45" skew_y="-45" opacity="100" alignment="cc" shape="Square" width="20" height="10" color="000000" display="bd"/>
+    <Layer type="shape" x="117" y="205" gyro="0" rotation="60" skew_x="45" skew_y="-45" opacity="100" alignment="cc" shape="Square" width="20" height="10" color="000000" display="bd"/>
+    <Layer type="shape" x="0" y="0" gyro="0" rotation="{drm} + 45" skew_x="-35" skew_y="-45" opacity="100" alignment="br" shape="Triangle" width="125" height="100" color="000000" display="bd"/>
+    <Layer type="shape" x="0" y="0" gyro="0" rotation="{drm} - 45.5" skew_x="35" skew_y="45" opacity="100" alignment="bl" shape="Triangle" width="125" height="100" color="000000" display="bd"/>
+    <Layer type="shape" x="0" y="0" gyro="0" rotation="{drh} + 45" skew_x="-30" skew_y="-42" opacity="100" alignment="br" shape="Triangle" width="105" height="80" color="000000" display="bd"/>
+    <Layer type="shape" x="0" y="0" gyro="0" rotation="{drh} - 44.5" skew_x="30" skew_y="42" opacity="100" alignment="bl" shape="Triangle" width="105" height="80" color="000000" display="bd"/>
+    <Layer type="shape" x="0" y="0" gyro="0" rotation="{drs}" skew_x="0" skew_y="0" opacity="100" alignment="bc" shape="Square" width="2" height="215" color="f08000" display="b"/>
+    <Layer type="shape" x="0" y="0" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="100" alignment="tc" shape="Square" width="550" height="300" color="0050a0" display="d"/>
+    <Layer type="text" x="0" y="-24" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="100" alignment="cc" text="{dh23}:{dmz}" text_size="30" anim_scale_x="100" anim_scale_y="100" font="TopazPlus_a500_v1.0" transform="n" color_dim="f08000" color="f08000" display="d"/>
+    <Layer type="text" x="0" y="25" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="100" alignment="cc" text="{dd} .. &quot; &quot; .. string.sub(&quot;{dnnnn}&quot;,1,3) .. &quot; &quot; .. {dy}" text_size="30" anim_scale_x="100" anim_scale_y="100" font="TopazPlus_a500_v1.0" transform="n" color_dim="ffffff" color="ffffff" display="d"/>
+    <Layer type="shape" x="0" y="-300" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="100" alignment="tc" shape="Square" width="480" height="105" color="ffffff" display="d"/>
+    <Layer type="text" x="0" y="-200" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="100" alignment="bc" text="Clock  V2.15" text_size="30" anim_scale_x="100" anim_scale_y="100" font="TopazPlus_a500_v1.0" transform="n" color_dim="0050a0" color="0050a0" display="d"/>
+</Watch>

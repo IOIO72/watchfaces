@@ -1,0 +1,33 @@
+<Watch name="Heko" description="I love the creativity of Tokyoflash!
+This watch face is a simulation of Heko LED.
+The four red lights in the upper area show the hours: 12, 3, 6 and 9 ordered like on analog clocks with the twelve on top, three on the right side, etc.
+The two green lights in the upper area show the hours between the red light hours.
+Example: the left red light is on and the two green lights are on means 9 + 1 + 1 which is 11 o&apos;clock.
+The four red lights on the bottom represent the minutes: 0, 15, 30 and 45. You read them just like the hours described above.
+The two green lights show the 5 minutes between the red lighted minutes.
+Example: the bottom red light and one green light is on means 30 + 5 which is 35 minutes of the hour.
+Two know the exact minute, you have to read status of the four orange lights in the middle. If you see 2 lights you have to add 2 minutes to the result of the red and green lights.
+Example: the left bottom red light, two green lights and three orange lights are on means 45 + 5 + 5 + 3 which is 58 minutes of the hour." features="12h Time,Digital" author="Tamio Honma" web_link="honma.de" bg_color="000000" ind_loc="bc" ind_bg="Y" hotword_loc="tc" hotword_bg="Y">
+    <Layer type="image" x="9" y="-8" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="100" alignment="cc" path=".img1756.png" width="553" height="536" color="ffffff" display="b"/>
+    <Layer type="image" x="0" y="-213" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dh} &gt; 0 and {dh} &lt; 3 or {dh} == 12) and 100 or 0" alignment="cc" path=".img1768.png" width="25" height="25" color="ffffff" display="bd"/>
+    <Layer type="image" x="0" y="-92" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dh} &gt; 5 and {dh} &lt; 9) and 100 or 0" alignment="cc" path=".img1768.png" width="25" height="25" color="ffffff" display="bd"/>
+    <Layer type="image" x="123" y="-153" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dh} &gt; 2 and {dh} &lt; 6) and 100 or 0" alignment="cc" path=".img1768.png" width="25" height="25" color="ffffff" display="bd"/>
+    <Layer type="image" x="-123" y="-153" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dh} &gt; 8 and {dh} &lt; 12) and 100 or 0" alignment="cc" path=".img1768.png" width="25" height="25" color="ffffff" display="bd"/>
+    <Layer type="image" x="-50" y="-153" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dh11} % 3 &gt;= 1) and 100 or 0" alignment="cc" path=".img1769.png" width="25" height="25" color="ffffff" display="bd"/>
+    <Layer type="image" x="50" y="-153" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dh11} % 3 &gt;= 2) and 100 or 0" alignment="cc" path=".img1769.png" width="25" height="25" color="ffffff" display="bd"/>
+    <Layer type="image" x="0" y="90" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dm} &gt;= 0 and {dm} &lt; 15) and 100 or 0" alignment="cc" path=".img1768.png" width="25" height="25" color="ffffff" display="bd"/>
+    <Layer type="image" x="123" y="150" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dm} &gt;= 15 and {dm} &lt; 30) and 100 or 0" alignment="cc" path=".img1768.png" width="25" height="25" color="ffffff" display="bd"/>
+    <Layer type="image" x="0" y="213" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dm} &gt;= 30 and {dm} &lt; 45) and 100 or 0" alignment="cc" path=".img1768.png" width="25" height="25" color="ffffff" display="bd"/>
+    <Layer type="image" x="-123" y="150" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dm} &gt;= 45 and {dm} &lt;= 59) and 100 or 0" alignment="cc" path=".img1768.png" width="25" height="25" color="ffffff" display="bd"/>
+    <Layer type="image" x="-50" y="150" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dm} % 15 &gt;= 5) and 100 or 0" alignment="cc" path=".img1769.png" width="25" height="25" color="ffffff" display="bd"/>
+    <Layer type="image" x="50" y="150" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dm} % 15 &gt;= 10) and 100 or 0" alignment="cc" path=".img1769.png" width="25" height="25" color="ffffff" display="bd"/>
+    <Layer type="shape" x="0" y="0" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="100" alignment="cc" shape="Square" width="570" height="128" color="333333" display="d"/>
+    <Layer type="shape" x="-150" y="4" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="100" alignment="cc" shape="Circle" width="35" height="35" color="000000" display="d"/>
+    <Layer type="shape" x="-50" y="4" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="100" alignment="cc" shape="Circle" width="35" height="35" color="000000" display="d"/>
+    <Layer type="shape" x="50" y="4" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="100" alignment="cc" shape="Circle" width="35" height="35" color="000000" display="d"/>
+    <Layer type="shape" x="150" y="4" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="100" alignment="cc" shape="Circle" width="35" height="35" color="000000" display="d"/>
+    <Layer type="image" x="-150" y="3" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dm} % 5 &gt;= 1) and 100 or 0" alignment="cc" path=".img1770.png" width="40" height="40" color="ffffff" display="bd"/>
+    <Layer type="image" x="-50" y="3" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dm} % 5 &gt;= 2) and 100 or 0" alignment="cc" path=".img1770.png" width="40" height="40" color="ffffff" display="bd"/>
+    <Layer type="image" x="50" y="3" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dm} % 5 &gt;= 3) and 100 or 0" alignment="cc" path=".img1770.png" width="40" height="40" color="ffffff" display="bd"/>
+    <Layer type="image" x="150" y="3" gyro="0" rotation="0" skew_x="0" skew_y="0" opacity="({dm} % 5 &gt;= 4) and 100 or 0" alignment="cc" path=".img1770.png" width="40" height="40" color="ffffff" display="bd"/>
+</Watch>

@@ -1,0 +1,56 @@
+var_l = 1
+var_num_kanji = {'一', '二', '三', '四', '五', '六', '七', '八', '九', '十', '十一', '十二'}
+var_num_romanji = {'ichi', 'ni', 'san', 'shi', 'go', 'roku', 'shichi', 'hachi', 'kjuu', 'ju', 'juichi', 'juni'}
+var_wd_romanji = {'nichi',  'getsu', 'ka', 'sui', 'moku', 'kin', 'do'}
+var_wd_kanji = {'日', '月', '火', '水', '木', '金', '土'}
+var_d_romanji = {
+    'tsuitachi',
+    'futsuka',
+    'mikka',
+    'yokka',
+    'itsuka',
+    'muika',
+    'nanoka',
+    'yooka',
+    'kokonoka',
+    'tooka',
+    'juuichinichi',
+    'juuninichi',
+    'juusannichi',
+    'juuyokka',
+    'juugonichi',
+    'juurokunichi',
+    'juushichinichi',
+    'juuhachinichi',
+    'juukunichi',
+    'hatsuka',
+    'nijuuichinichi',
+    'nijuuninichi',
+    'nijuusannichi',
+    'nijuuyokka',
+    'nijuugonichi',
+    'nijuurokunichi',
+    'nijuushichinichi',
+    'nijuuhachinichi',
+    'nijuukunichi',
+    'sanjuunichi',
+    'sanjuuichinichi'
+}
+
+var_lab_phone = {'電話','denwa'}
+var_lab_watch = {'時計','tokei'}
+
+function getDayRomanji(day)
+-- todo
+end
+
+function on_second(dt)
+    var_date = {{dyy} .. "年" .. string.char(10) .. {dn} .. "月 " .. {dd} .. "日",{dyy} .. "-nen" .. string.char(10) .. var_num_romanji[{dn}] .. "gatsu" .. string.char(10) .. var_d_romanji[{dd}]}
+    var_s_hours_now_kan = var_num_kanji[{dh}] .. '時'
+    var_s_hours_now_rom = var_num_romanji[{dh}] .. '-ji'
+    var_s_wd_now_rom = var_wd_romanji[{ddw0}+1] .. 'youbi'
+    var_s_wd_now_kan = var_wd_kanji[{ddw0}+1] .. '曜日'
+    var_s_lay_phone = var_lab_phone[var_l]
+    var_s_lay_watch = var_lab_watch[var_l]
+    var_s_lay_date = var_date[var_l]
+end
